@@ -1,0 +1,15 @@
+.navbar {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#intro {
+  text-align: center;
+}
+
+pre {
+  color: #ccc;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

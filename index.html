@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana CSS (Create decent Docs in Dark Mode)</title>
+
+    <link rel="stylesheet" href="Banana-css/banana.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-item">
+            <a href="#intro" class="nav-link">Home</a>
+        </div>
+        <div class="nav-item">
+            <a href="#features" class="nav-link">Features</a>
+        </div>
+        <div class="nav-item">
+            <a href="#download" class="nav-link">Download</a>
+        </div>
+        <div class="nav-item">
+            <a href="#get-started" class="nav-link">Get Started</a>
+        </div>
+    </nav>
+
+    <div class="container" >
+        <div id="intro">
+            <h1>Banana CSS</h1>
+            <p>A very decent looking CSS Framework Geared towards Doc Creators using only HTML and CSS</p>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div id="features">
+            <h1>Features</h1>
+            <h3>Colors</h3>
+            <p>Green and Black Colors are used to get clean in unique look for your document. Text selection does green text, try selecting this text. Also Buttons use Green and Black.</p>
+            <h3>Ample of Animations and Transitions</h3>
+            <p>Some good amount of Transitions and Animations are made for few components which deserve some. Like the button having colors ans border Transitions. Also they are visible and quick. It gives a salty Visual Feedback which is very good than just having a simple default button.</p>
+            <h3>Font</h3>
+            <p>The font 'Raleway' is used to get a matching Font as well as readable font.</p>
+            <h3>Technology</h3>
+            <p>Various modern Technologies, like SCSS and VSCode (with lots of Extensions) are used to develop, resulting in very rapid improvements, that will make bug fixes, new features get implemented really quick.</p>
+        </div>
+        <hr>
+        <div id="download">
+            <h1>Get It</h1>
+            <p>All you have to do is just download the small files and simply paste it inside your website's working directory (or anywehre else as per your preferences) and just use the following code inside the head tag in the html file</p>
+            <code>&lt;link rel="stylesheet" src="Banana/banana.min.css"&gt;</code>
+            <p>The current version is "beta1", BananaCSS-beta2 is Work In Progress. beta1 is basically very basic and just works. It will have more features expected in the next few beta releases. This website uses the current beta version that can be viewed as an Example.</p>
+        </div>
+        <hr>
+        <div id="get-started">
+            <h1>Get Started</h1>
+            <h2>Kickstarter</h2>
+            <p>As a Kickstarter, I will be explaining how to get started. After when you have linked the css file, you can use its unique styles by referring those classes and use tags to fine finish your website.</p>
+            <h3>A simple DOC Site</h3>
+            <p>We will start from creating a Documentary site using BananaCSS.</p>
+            <p>Lets create a navbar to be able to give the ability of Navigation for your Client/User.</p>
+            <pre>
+&lt;nav class="navbar"&gt;
+    &lt;div class="nav-item"&gt;
+        &lt;a href="#" class="nav-brand"&gt;LOGO&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="nav-item"&gt;
+        &lt;a href="#" class="nav-link"&gt;Home&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="nav-item"&gt;
+        &lt;a href="#" class="nav-link"&gt;Index&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="nav-item"&gt;
+        &lt;a href="#" class="nav-link"&gt;Buy PDF&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;
+            </pre>
+            <p>This will create a Navbar wth 3 buttons and a Logo</p>
+            <p>The <code>navbar</code> class defines it as a navbar with flex as display. The <code>nav-item</code> defines it as a navbar's item, that can contain something that is placed inside the navbar with some css styling. <code>nav-link</code> makes the anchor tag a navbar link that has another some specific css styles and transitions defining it as a clickable text.</p>
+            <p>Let's now create a Title showing the name of the project (for what this Doc is being created)</p>
+            <p>To do that simply create a h1 tag and type the name. Thats it</p>
+            <p>To create a button, just create a anchor tag and give it a class of "btn" and it will become a button, "btn-outline" class will give it a different look (give either "btn" or "btn-outline" to make it have different looks.</p>
+            <p>There we have 2 different types of Buttons, try hovering and clicking over them.</p>
+            <br>
+            <a href="#" class="btn">Solid</a>
+            <a href="#" class="btn-outline">Outline</a>
+            <br>
+            <br>
+            <p>It's recommended to add br tags before and after anchor tag with btn classes.</p>
+            <p>Also there are few more, that you can simply know by taking a look at the css file, its so small as it just has 147 lines and I have talked about the half here, but you can take a look at the scss file for much clear and smallllllerrr view.</p>
+        </div>
+        <hr>
+        <div>
+            <h1>Support Me</h1>
+            <p>If you want banana CSS to get developed much better, you can contribute me by helping though the Github Repo.</p>
+            <br>
+            <a href="https://github.com/voltagex007/BananaCSS" class="btn">Banana Github</a>
+	    <br>
+	    <br>
+        </div>
+	<hr>
+	<div>
+	    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">BananaCSS-website</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">voltagex007</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+	</div>
+    </div>
+</body>
+</html>
